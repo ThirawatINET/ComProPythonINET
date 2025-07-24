@@ -5,4 +5,4 @@ for i in range(rows):
    for j in range(1,num + 1):
         print(i *num + j ,end = " ")
 print()
-   
+2
