@@ -9,3 +9,5 @@ with open("employees.txt", "w") as emp_file:
         emp_file.write(name + "\n")
         emp_file.write(id_num + "\n")
         emp_file.write(dept + "\n")
+        print()
+print(f"{num_emps} employee records saved to employees.txt")

@@ -5,7 +5,6 @@ record_size = struct.calcsize(record_format)
 
 
 with open("records.bin", "rb") as file:
-
     file.seek(record_size)
     
 
